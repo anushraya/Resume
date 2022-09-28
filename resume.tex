@@ -1,0 +1,252 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small }\\
+    \end{tabular*}\vspace{-7pt}
+    
+
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Anushraya Sharma} \\ \vspace{1pt}
+    Moradabad, Uttar Pradesh \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 9045033370 ~ \href{mailto:anushrayasharma03@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{anushrayasharma03gmail.com}} ~
+    \href{https://github.com/godofgeeks23}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/anushraya}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KIET Group of Institutions}{Sept 2020 - Present}
+      {Bachelor of Technology in Computer Science }{Ghaziabad, Uttar Pradesh, India}
+  \resumeSubHeadingListEnd
+  \vspace{-5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KCM School}{2019 - 2020}
+      {Senior Secondary}{Moradabad, India}
+  \resumeSubHeadingListEnd
+  \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {KCM School}{2017 - 2018}
+      {Secondary }{Moradabad, India}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+  {Novacorp Technologies }{ 2022}
+      {Intern}{}
+      
+    
+    \resumeSubheading
+      {Amazon WOW }{2022}
+      {Mentee}{}
+
+    
+  
+
+    \resumeSubheading
+      {Ek Prayas}{ 2022}
+      {Member}{Ghaziabad, India}
+      \resumeItemListStart
+        \resumeItem{Ek Prayas is a social welfare club aimed towards spreading awareness about and eradication of smoking/drinking/drugs used by youth.}
+        
+        
+    
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{QR code generator and scanner} $|$ \emph{Python} $|$ {https://github.com/anushraya/QR-code-scanner}}{temp}
+          \resumeItemListStart
+            \resumeItem{Used for scanning,reading and generating qr code from live media source as well as from saved media.}
+          \resumeItemListEnd
+    \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Extracting trends from social 
+media} $|$ \emph{Python, Elasticsearch, Kibana, Logstash}  $|$ {https://github.com/anushraya/Shopping-trend-analyzer}}{temp}
+          \resumeItemListStart
+            \resumeItem{A tool to scrape live Twitter and Instagram data using Python and analyzing it using Elastic stack.}
+          \resumeItemListEnd
+    \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{ToDo-app} $|$ \emph{Python}  $|$ {https://github.com/anushraya/ToDo-app}}{temp}
+          \resumeItemListStart
+            \resumeItem{Priority based command line application developed in python to manage tasks efficiently.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%
+%-----------Achievements-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItemListStart
+        \resumeItem{Acheived \textbf{two milestones} in \textbf{Google Cloud Program}. }
+        \resumeItem{\textbf{Semi Finalist} in \textbf{Flipkart Grid}.}
+        \resumeItem{Cleared 1st techinical round of\textbf{ Service Now}.}
+       
+      \resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+%-----------Profile Links-----------
+\section{Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItemListStart
+        \resumeItem {\href{https://github.com/anushraya}{GitHub}}
+        
+        \resumeItem {\href{https://www.linkedin.com/in/anushraya-sharma-9a967a204}{LinkedIn}}
+      \resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Python, HTML/CSS, Bash,SQL} \\
+     \textbf{Developer Tools}{: Git, Visual Studio Code, Canva} \\
+     \textbf{Libraries}{: Tkinter, OpenCV} \\
+     \textbf{Theoretical Concepts}{: Data Structures and Algorithms, DMBS, Operating System} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%
+%-----------Miscellaneous-----------
+\section{Miscellaneous}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     {Consider myself to be a \textbf{teamworker}.} \\
+     {Proficient in English and Hindi.} \\
+     {\textbf{Hobbies:}  Travelling, Cooking, Dancing, Playing Badminton..} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
